@@ -4,6 +4,7 @@ from phi.assistant import Assistant
 from phi.llm.openai import OpenAIChat
 from phi.tools.yfinance import YFinanceTools
 from phi.llm.groq import Groq
+import os
 # Set up the Streamlit app
 st.title("AI Investment Agent 📈🤖")
 st.caption("This app allows you to compare the performance of two stocks and generate detailed reports.")
