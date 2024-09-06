@@ -9,7 +9,7 @@ st.title("AI Investment Agent 📈🤖")
 st.caption("This app allows you to compare the performance of two stocks and generate detailed reports.")
 
 # Get OpenAI API key from user
-groq_api_key = st.text_input("Groq API Key", type="password")
+groq_api_key = st.text_input("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", type="password")
 
 if groq_api_key:
     # Create an instance of the Assistant
