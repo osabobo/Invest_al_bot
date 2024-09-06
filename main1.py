@@ -13,7 +13,7 @@ groq_api_key = os.getenv("gsk_Oz97o1MNA4GnjzIb0XiRWGdyb3FY7xaRG40cT9X60TgiIkWhxL
 # Or use Streamlit secrets if you're deploying on Streamlit Cloud
 # groq_api_key = st.secrets["GROQ_API_KEY"]
 # Get OpenAI API key from user
-groq_api_key = st.text_input("Please enter your Groq API key", type="password")
+#groq_api_key = st.text_input("Please enter your Groq API key", type="password")
 
 if groq_api_key:
     # Create an instance of the Assistant
