@@ -15,7 +15,7 @@ groq_api_key = os.getenv("gsk_Oz97o1MNA4GnjzIb0XiRWGdyb3FY7xaRG40cT9X60TgiIkWhxL
 # Get OpenAI API key from user
 #groq_api_key = st.text_input("Please enter your Groq API key", type="password")
 
-if groq_api_key:
+if groq_api_key is not None:
     # Create an instance of the Assistant
     assistant = Assistant(
         llm=Groq(model="llama-3.1-70b-versatile", api_key=groq_api_key),
