@@ -20,7 +20,7 @@ groq_api_key = st.secrets["GROQ_API_KEY"]
 if groq_api_key is not None:
     # Create an instance of the Assistant
     assistant = Assistant(
-        llm=Groq(model="llama-3.1-70b-versatile", api_key=groq_api_key),
+        llm=Groq(model="llama-3.3-70b-versatile", api_key=groq_api_key),
         tools=[YFinanceTools(stock_price=True, analyst_recommendations=True, company_info=True, company_news=True)],
         show_tool_calls=True,
     )
