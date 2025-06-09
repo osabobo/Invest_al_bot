@@ -13,7 +13,7 @@ st.caption("This app allows you to compare the performance of two stocks and gen
 #groq_api_key = " "
 
 # Or use Streamlit secrets if you're deploying on Streamlit Cloud
- groq_api_key = st.secrets["GROQ_API_KEY"]
+groq_api_key = st.secrets["GROQ_API_KEY"]
 # Get OpenAI API key from user
 #groq_api_key = st.text_input("Please enter your Groq API key", type="password")
 
